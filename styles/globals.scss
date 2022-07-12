@@ -12,5 +12,57 @@ body {
   @apply font-medium;
   @apply cursor-pointer;
   @apply hover:text-secondary;
-  @apply ml-5;
+  @apply mx-5;
+}
+
+.projectCard {
+  @apply p-1 w-full rounded-lg mt-5;
+  .content {
+    @apply bg-quinary text-white text-center p-5 rounded-lg;
+    .title {
+      @apply text-xl font-bold;
+    }
+    .description {
+      @apply text-sm;
+    }
+  }
+}
+
+.my-masonry-grid {
+  display: -webkit-box; /* Not needed if autoprefixing */
+  display: -ms-flexbox; /* Not needed if autoprefixing */
+  display: flex;
+  margin-left: -30px; /* gutter size offset */
+}
+.my-masonry-grid_column {
+  padding-left: 30px; /* gutter size */
+  background-clip: padding-box;
+}
+
+.header { 
+  @apply text-3xl text-white mb-2;
+}
+
+.experienceCard {
+  @apply text-white py-3 border-b-2 border-b-gray-400 border-opacity-40;
+
+  .nameDate {
+    @apply flex gap-3 items-center;
+    
+    .icon {
+      @apply text-xs my-auto;
+    }
+
+    .employerName {
+      @apply text-lg my-auto font-bold;
+    }
+
+    .date {
+      @apply text-sm my-auto text-gray-400;
+    }
+  }
+
+  .content {
+    @apply text-sm text-left pt-1;
+  }
 }
