@@ -105,13 +105,13 @@ export default function Home() {
 						`}
 						color1={'#7cff01'}
 						color2={'#8401FF'}
-					/>
+					/> 
 				</Masonry>
 			</div>
 
 			<div id="contact" className='mt-16 max-w-[800px] mx-auto'>
 				<h1 className='header'>Get In Touch</h1>
-				<div className='flex justify-center items-center text-white gap-5'>
+				<div className='flex justify-start mt-4 items-center text-white gap-5'>
 					<a href='https://github.com/ZacharySeebeck2020' className='rounded bg-gray-800 py-2 px-3'>
 						<FontAwesomeIcon icon={faGithub}/>
 					</a>
