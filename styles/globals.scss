@@ -1,0 +1,16 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body {
+  @apply bg-quinary;
+}
+
+.navLink {
+  @apply text-primary;
+  @apply text-xl;
+  @apply font-medium;
+  @apply cursor-pointer;
+  @apply hover:text-secondary;
+  @apply ml-5;
+}

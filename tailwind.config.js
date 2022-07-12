@@ -1,35 +1,19 @@
+/** @type {import('tailwindcss').Config} */
 module.exports = {
+  content: [
+    "./pages/**/*.{js,ts,jsx,tsx}",
+    "./components/**/*.{js,ts,jsx,tsx}",
+  ], 
   theme: {
     extend: {
       colors: {
-        background: {
-          lighter: '#3e4959',
-          default: '#222831',
-          darker: '#15181c'
-        },
-        accent: '#393e46',
-        menu_item: '#56AF73',
-        social_item: {
-          default: '#56AF73',
-          dark: '#74f29f'
-        },
-        primary: {
-          lighter: '#3ee6df',
-          default: '#29a19c',
-          darker: '#1a6965'
-        },
-        secondary: {
-          lighter: '#a3f7bf',
-          default: '#7ebd93',
-          darker: '#5c8a6b',
-        }
-      },
-      spacing: {
-        '96': '24rem',
-        '128': '32rem',
+        primary: '#729DAD',
+        secondary: '#264968',
+        tertiary: '#5A726E',
+        quaternary: '#AA8868',
+        quinary: '#101D27',
       }
-    }
+    },
   },
-  variants: {},
-  plugins: []
+  plugins: [],
 }
