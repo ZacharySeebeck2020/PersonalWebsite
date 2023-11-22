@@ -60,6 +60,10 @@ body {
     .date {
       @apply text-sm my-auto text-gray-400;
     }
+    .title {
+      @apply text-xs;
+    }
+
   }
 
   .content {
